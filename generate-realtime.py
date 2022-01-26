@@ -24,4 +24,4 @@ for row in cursor:
 
 
 
-print json.dumps(list, indent=4, sort_keys=True)
+print(json.dumps(list, indent=4, sort_keys=True))
